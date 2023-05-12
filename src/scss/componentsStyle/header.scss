@@ -1,5 +1,6 @@
 .header-desktop {
-    width: 100%;
+    width: vw(1170);
+    max-width: 1170px;
     position: relative;
     z-index: 1002;
     background: #fff;
