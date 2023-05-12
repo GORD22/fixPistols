@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixPistols</title>
+    
+</head>
+
+<body>
+
+    <div class="site-container">
+        <header class="header-desktop">
+            <div class="header-top">
+                <ul class="location-list">
+                    <li class="location-list__choose-city">Выберите город</li>
+                    <li>
+                        <svg class="svg-location-dims" alt="location">
+                            <use xlink:href="../images/sprite.svg#location"></use>
+                        </svg>
+                        <span class="location-list__current-city">Санкт-Петербург</span>
+                    </li>
+                </ul>
+                <form class="search" action="#">
+                    <input class="search__input" placeholder="Поиск" type="text"></input>
+                    <button class="search__btn">
+                        <svg class="svg-search-dims" alt="search">
+                            <use xlink:href="../images/sprite.svg#search"></use>
+                        </svg>
+                        <span>Найти</span>
+                    </button>
+                </form>
+                <ul class="mail-list">
+                    <li class="mail-list__mail">
+                        <svg class="svg-mail-dims" alt="mail">
+                            <use xlink:href="../images/sprite.svg#mail"></use>
+                        </svg>
+                        info@mil-tools.ru
+                    </li>
+                </ul>
+                <ul class="phone-list">
+                    <li class="phone-list__number">
+                        <svg class="svg-phone-dims" alt="phone">
+                            <use xlink:href="../images/sprite.svg#phone"></use>
+                        </svg>
+                         <a href="tel:84957477888">+7 (495) 747-78-88</a>
+                    </li>
+                    <li class="phone-list__call-request">Заказать звонок</li>
+                </ul>
+                <button class="profile-btn">
+                    <svg class="svg-profileIcon-dims" alt="phone">
+                        <use xlink:href="../images/sprite.svg#profileIcon"></use>
+                    </svg>
+                    профиль
+                </button>
+            </div>
+            <div class="header-bottom">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">Каталог</li>
+                        <li class="nav__item">Акции</li>
+                        <li class="nav__item">Статья</li>
+                        <li class="nav__item">FAQ</li>
+                        <li class="nav__item">Блог</li>
+                        <li class="nav__item">Сервис</li>
+                        <li class="nav__item">Контакты</li>
+                    </ul>
+                </nav>
+                <button class="favorite-btn">
+                    <svg class="svg-heart-dims">
+                        <use xlink:href="../images/sprite.svg#heart"></use>
+                    </svg>
+                </button>
+                <button class="cart-btn">
+                    <svg class="svg-cart-dims" alt="phone">
+                        <use xlink:href="../images/sprite.svg#cart"></use>
+                    </svg>
+                    <span>корзина</span>
+                </button>
+            </div>
+        </header>
+        <div class="category">
+            <ul class="category__list">
+                <li class="category__item">
+                    <span class="name">Пороховая технология</span>
+                    <img src="../images/tool_1.webp" />
+                </li>
+                <li id="category__item" class="category__item">
+                    <span class="name">Газовая технология</span>
+                    <img src="../images/tool_2.webp" />
+                </li>
+                <li id="category__item" class="category__item">
+                    <span class="name">Технология укрепления утепления</span>
+                    <img src="../images/tool_1.webp" />
+                </li>
+                <li id="category__item" class="category__item">
+                    <span class="name">Ленточные шуруповерты</span>
+                    <img src="../images/tool_3.webp" />
+                </li>
+                <li id="category__item" class="category__item">
+                    <span class="name">Гвозди для Hilti и Dewalt</span>
+                    <img src="../images/tool_4.webp" />
+                </li>
+                <li id="category__item" class="category__item">
+                    <span class="name">Гвозди по дереву</span>
+                    <img src="../images/tool_5.webp" />
+                </li>
+            </ul>
+        </div>
+        <div class="hero">
+            <div class="hero__container">
+                <div class="slider">
+                    <div class="btns-block">
+                        <button class="thumb-btn btn-prev">
+                            <svg class="svg-arrow">
+                                <use xlink:href="../images/sprite.svg#arrow"></use>
+                            </svg>
+                        </button>
+                        <button class="thumb-btn btn-next">
+                            <svg class="svg-arrow">
+                                <use xlink:href="../images/sprite.svg#arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__content">
+                                <ul class="swiper-slide__nav">
+                                    <li class="point"></li>
+                                    <li class="item">Главная</li>
+                                    <li class="item">Услуги</li>
+                                    <li class="item">Пескоструйная очистка</li>
+                                </ul>
+                                <p class="swiper-slide__title">6 типов крепежных элементов для различных применений</p>
+                            </div>
+                            <div class="swiper-slide__btns">
+                                <button class="more-btn btn--slide">
+                                    <span>подробнее</span>
+                                </button>
+                                <button class="in-catalog-btn btn--slide">
+                                    <span>перейтив каталог</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__content">
+                                <ul class="swiper-slide__nav">
+                                    <li class="point"></li>
+                                    <li class="item">Главная</li>
+                                    <li class="item">Услуги</li>
+                                    <li class="item">Пескоструйная очистка</li>
+                                </ul>
+                                <p class="swiper-slide__title">6 типов крепежных элементов для различных применений</p>
+                            </div>
+                            <div class="swiper-slide__btns">
+                                <button class="more-btn btn--slide">
+                                    <span>подробнее</span>
+                                </button>
+                                <button class="in-catalog-btn btn--slide">
+                                    <span>перейтив каталог</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about-section">
+            <div class="about-section__container">
+                <div class="about-section__container-top">
+                    <h2 class="about-section__title">Система прямого монтажа - FIXPISTOLS</h2>
+                    <button class="thumb-btn btn-next">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="content">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="video-block video-block--modify">
+                                <button class="play-btn">
+                                    <svg class="svg-play">
+                                        <use xlink:href="../images/sprite.svg#play"></use>
+                                    </svg>
+                                </button>
+                                <video class="video-block__content" src="../video/video-content.mp4"></video>
+                            </div>
+                            <div class="description-block">
+                                <h4 class="description-block__title">Lorem ipsum is a placeholder text commonly used.</h4>
+                                <p class="description-block__text">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                                    visual form of a document or a typeface. In publishing and graphic design, Lorem ipsum is a
+                                    placeholder text commonly used to demonstrate the visual form of a document or a typeface. Lorem
+                                    ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+                                    typeface. Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface typeface. Lorem ipsum is a placeholder text commonly
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="video-block video-block--modify">
+                                <button class="play-btn">
+                                    <svg class="svg-play">
+                                        <use xlink:href="../images/sprite.svg#play"></use>
+                                    </svg>
+                                </button>
+                                <video class="video-block__content" src="../video/video-content.mp4"></video>
+                            </div>
+                            <div class="description-block">
+                                <h4 class="description-block__title">Lorem ipsum is a placeholder text commonly used.</h4>
+                                <p class="description-block__text">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                                    visual form of a document or a typeface. In publishing and graphic design, Lorem ipsum is a
+                                    placeholder text commonly used to demonstrate the visual form of a document or a typeface. Lorem
+                                    ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+                                    typeface. Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface typeface. Lorem ipsum is a placeholder text commonly
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="video-block video-block--modify">
+                                <button class="play-btn">
+                                    <svg class="svg-play">
+                                        <use xlink:href="../images/sprite.svg#play"></use>
+                                    </svg>
+                                </button>
+                                <video class="video-block__content" src="../video/video-content.mp4"></video>
+                            </div>
+                            <div class="description-block">
+                                <h4 class="description-block__title">Lorem ipsum is a placeholder text commonly used.</h4>
+                                <p class="description-block__text">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                                    visual form of a document or a typeface. In publishing and graphic design, Lorem ipsum is a
+                                    placeholder text commonly used to demonstrate the visual form of a document or a typeface. Lorem
+                                    ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+                                    typeface. Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface typeface. Lorem ipsum is a placeholder text commonly
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <section class="actual-section">
+            <h2 class="actual-section__title">Актуальные акции</h2>
+            <div class="actual-section__container">
+                <div class="btns-block">
+                    <button class="thumb-btn btn-prev">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                    <button class="thumb-btn btn-next">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="actual-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                            <div class="actual-slider-item">
+                                <div class="item-description">
+                                    <h5>Проверь лучшее предложение</h5>
+                                    <p>It is a long established fact will be distracted by the will</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hits-section">
+            <div class="hits-section__container">
+                <h2 class="hits-section__title">Хиты продаж</h2>
+                <div class="btns-block">
+                    <button class="thumb-btn btn-prev">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                    <button class="thumb-btn btn-next">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hits-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item__preview">
+                                <img src="../images/product-img.webp">
+                                <button class="favorite-btn">
+                                    <svg class="svg-heart">
+                                        <use xlink:href="../images/sprite.svg#heart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h4 class="product-item__title">
+                                Моторное масло LUKOIL 236 Genesis Armortech, 5w-40
+                            </h4>
+                            <p class="product-item__description">
+                                It is a long established fact that a reader will be distracted by the
+                            </p>
+                            <div class="block-price">
+                                <span>2880 ₽</span>
+                                <s>3850</s>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="applications-section">
+            <div class="applications-section__container">
+                <h2 class="applications-section__title">Области применения</h2>
+                <p class="applications-section__description">
+                    Lorem ipsum is a placeholder text commonly used.
+                </p>
+                <div class="btns-block">
+                    <button class="thumb-btn btn-prev">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                    <button class="thumb-btn btn-next">
+                        <svg class="svg-arrow">
+                            <use xlink:href="../images/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="applications-catalog">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                            <div class="applications-item">
+                                <div class="video-block video-block--modify">
+                                    <button class="play-btn">
+                                        <svg class="svg-play">
+                                            <use xlink:href="../images/sprite.svg#play"></use>
+                                        </svg>
+                                    </button>
+                                    <video class="video-block__content" src="../video/video-content.mp4"></video>
+                                </div>
+                                <h4 class="applications-item__title">
+                                    Название области
+                                </h4>
+                                <p class="applications-item__description">
+                                    It is a long established fact that a reader will be distracted by the distracted
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="header-subscribe-bottom">
+            <header class="header-desktop">
+                <div class="header-top">
+                    <ul class="location-list">
+                        <li class="location-list__choose-city">Выберите город</li>
+                        <li>
+                            <svg class="svg-location-dims" alt="location">
+                                <use xlink:href="../images/sprite.svg#location"></use>
+                            </svg>
+                            <span class="location-list__current-city">Санкт-Петербург</span>
+                        </li>
+                    </ul>
+                    <form class="search" action="#">
+                        <input class="search__input" placeholder="Поиск" type="text"></input>
+                        <button class="search__btn">
+                            <svg class="svg-search-dims" alt="search">
+                                <use xlink:href="../images/sprite.svg#search"></use>
+                            </svg>
+                            <span>Найти</span>
+                        </button>
+                    </form>
+                    <ul class="mail-list">
+                        <li class="mail-list__mail">
+                            <svg class="svg-mail-dims" alt="mail">
+                                <use xlink:href="../images/sprite.svg#mail"></use>
+                            </svg>
+                            info@mil-tools.ru
+                        </li>
+                    </ul>
+                    <ul class="phone-list">
+                        <li class="phone-list__number">
+                            <svg class="svg-phone-dims" alt="phone">
+                                <use xlink:href="../images/sprite.svg#phone"></use>
+                            </svg>
+                             <a href="tel:84957477888">+7 (495) 747-78-88</a>
+                        </li>
+                        <li class="phone-list__call-request">Заказать звонок</li>
+                    </ul>
+                    <button class="profile-btn">
+                        <svg class="svg-profileIcon-dims" alt="phone">
+                            <use xlink:href="../images/sprite.svg#profileIcon"></use>
+                        </svg>
+                        профиль
+                    </button>
+                </div>
+                <div class="header-bottom">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">Каталог</li>
+                            <li class="nav__item">Акции</li>
+                            <li class="nav__item">Статья</li>
+                            <li class="nav__item">FAQ</li>
+                            <li class="nav__item">Блог</li>
+                            <li class="nav__item">Сервис</li>
+                            <li class="nav__item">Контакты</li>
+                        </ul>
+                    </nav>
+                    <button class="favorite-btn">
+                        <svg class="svg-heart-dims">
+                            <use xlink:href="../images/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <button class="cart-btn">
+                        <svg class="svg-cart-dims" alt="phone">
+                            <use xlink:href="../images/sprite.svg#cart"></use>
+                        </svg>
+                        <span>корзина</span>
+                    </button>
+                </div>
+            </header>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer__container footer__container--top">
+                <div class="service">
+                    <span class="service__title">Каталог</span>
+                    <ul class="service__list">
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <span class="service__title">Каталог</span>
+                    <ul class="service__list">
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <span class="service__title">Каталог</span>
+                    <ul class="service__list">
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <span class="service__title">Каталог</span>
+                    <ul class="service__list">
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <span class="service__title">Каталог</span>
+                    <ul class="service__list">
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                        <li class="service__item">Список товаров</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer__container footer__container--bottom">
+                <p class="footer-bottom__info">
+                    © 2001-2023. АО «Альфа-Банк», официальный сайт. Генеральная лицензия Банка России № 1326 от 16 января
+                    2015 г. <span>АО «Альфа-Банк» является участником системы обязательного страхования вкладов.</span> <span>Информация
+                    о процентных ставках по договорам банковского вклада с физическими лицами.</span>
+                </p>
+                <p class="footer-bottom__info">
+                    АО «Альфа-Банк» является оператором по обработке персональных данных, информация об обработке персональных данных и сведения
+                    о реализуемых требованиях к защите персональных данных отражены в <span>Политике в отношении обработки
+                    персональных данных.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script type="module" src="js/main.min.js"></script>
+</body>
+
+</html>
