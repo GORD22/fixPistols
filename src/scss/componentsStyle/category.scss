@@ -1,0 +1,48 @@
+@import "../../functions/functions.scss";
+
+.category {
+
+    background: #000;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 59px;
+    }
+
+    &__item {
+        cursor: pointer;
+        overflow: hidden;
+        background: #FFFFFF;
+        border: 1px solid #CDCDCD;
+        box-shadow: 6px 0px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 351px;
+        height: 102px;
+
+        transform: skew(-48.5deg);
+
+        & .name {
+            position: relative;
+            top: 17px;
+            left: -7px;
+            z-index: 1;
+            margin-bottom: 3px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 16px;
+            transform: skew(48.5deg);
+
+            color: #1D1D1D;
+        }
+
+        & img {
+            position: relative;
+            top: 15px;
+            left: 14px;
+            transform: skew(48.5deg);
+        }
+    }
+}

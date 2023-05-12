@@ -1,0 +1,7 @@
+@function vw($value, $base: 1170) {
+    @return $value * 100vw / $base 
+};
+
+@function perc($value, $base: 1090) {
+    @return $value * 100% / $base 
+}

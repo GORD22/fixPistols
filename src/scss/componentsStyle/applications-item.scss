@@ -1,0 +1,31 @@
+.applications-item {
+    margin-bottom: 60px;
+
+    width: 312px;
+    
+    & .video-block--modify {
+        height: 297px;
+        &::before {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31))
+        }
+    }
+
+    &__title {
+        margin-top: 7px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 50px;
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #CFCFCF;
+    }
+}

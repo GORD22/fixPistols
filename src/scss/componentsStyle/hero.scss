@@ -1,0 +1,150 @@
+.hero {
+    background: #000;
+    padding-top: 54px;
+    padding-bottom: 44px;
+
+    &__container {
+        margin: 0 auto;
+        width: 1090px;
+    }
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+
+    width: 100%;
+    height: 598px;
+
+    & .btns-block {
+        position: absolute;
+        left: 3.5%;
+        bottom: 25.5%;
+        z-index: 10;
+
+        width: 1010px;
+        display: flex;
+        justify-content: space-between;
+
+        & .thumb-btn {
+            background: #fff;
+            color: #AB2222;
+        }
+    }
+
+    & .swiper-slide {
+        background: linear-gradient(260.06deg, rgba(215, 19, 19, 0.45) 4.7%, rgba(215, 19, 19, 0) 57.46%),
+            linear-gradient(96.65deg, rgba(0, 0, 0, 0.65) 30.57%, rgba(0, 0, 0, 0) 83.16%),
+            url(../../images/slideBcg.webp);
+        background-repeat: no-repeat;
+        background-position: -1px center;
+        background-size: cover;
+
+        padding-top: 82px;
+        padding-left: 42px;
+        padding-bottom: 64px;
+
+        &__content {
+            width: 300px;
+        }
+
+        &__nav {
+            display: flex;
+            align-items: center;
+
+            & .point {
+                width: 5px;
+                height: 5px;
+                background: #fff;
+                margin-right: 17px;
+            }
+
+            & .item {
+                font-size: 14px;
+                line-height: 30px;
+
+                color: #BBBBBB;
+
+                &:not(:last-child)::after {
+                    content: ">";
+                    margin-left: 3px;
+                    margin-right: 3px;
+                }
+            }
+        }
+
+        &__title {
+            margin-top: 44px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+
+            color: #FFFFFF;
+        }
+
+        &__btns {
+            margin-top: 135px;
+            display: flex;
+            align-items: center;
+        }
+
+        & .btn--slide {
+            height: 43px;
+
+            & span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+
+                text-transform: uppercase;
+            }
+        }
+
+        & .more-btn {
+            position: relative;
+            width: 225px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #FFFFFF;
+
+            color: #FFFFFF;
+
+            & span {
+                position: absolute;
+                top: 26%;
+                left: 21%;
+            }
+
+            &:hover {
+                background: #FFFFFF;
+                color: #292929;
+            }
+        }
+
+        & .in-catalog-btn {
+            width: 185px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            background: #FFFFFF;
+            text-align: left;
+            color: #292929;
+
+            & span {
+                position: absolute;
+                top: 27%;
+                left: 3%;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -41px;
+                width: 0;
+                height: 0;
+                border-bottom: 43px solid #fff;
+                border-left: 41px solid transparent;
+            }
+        }
+    }
+}

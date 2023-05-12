@@ -1,0 +1,8 @@
+@import "./header.scss";
+.header-subscribe-bottom {
+    margin-top: 101px;
+    & .header-desktop {
+        padding-bottom: 26px;
+        box-shadow: none;
+    }
+}

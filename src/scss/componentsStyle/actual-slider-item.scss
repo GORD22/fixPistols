@@ -1,0 +1,38 @@
+.actual-slider-item {
+    width: perc(342);
+    height: 100%;
+    background: #900A00 url(../../images/actual-item-bcg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    padding: 26px 28px;
+
+    &:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    & .item-description{
+        width: 60%;
+
+        h5 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+    
+            text-transform: uppercase;
+    
+            color: #FDFDFD;
+
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+    
+            color: #EEEEEE;
+    
+        }
+    }
+}

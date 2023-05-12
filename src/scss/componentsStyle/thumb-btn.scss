@@ -1,0 +1,21 @@
+.btns-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .thumb-btn {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+    
+        & .svg-arrow {
+            width: 14px;
+            height: 26px;
+        }
+    }
+
+    & .btn-prev {
+        transform: rotate(-180deg);
+    }
+}
+

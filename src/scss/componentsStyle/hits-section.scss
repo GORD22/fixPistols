@@ -1,0 +1,43 @@
+@import '../../functions/functions.scss';
+@import '../componentsStyle/product-item.scss';
+
+.hits-section {
+    margin-top: 101px;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom:47px;
+
+    &__container {
+        width: 1090px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 65px;
+
+        text-transform: uppercase;
+
+        color: #1D0808;
+    }
+    & .btns-block {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    & .thumb-btn {
+        background: #1D0808;
+        color: #fff;
+    }
+}
+
+
+.hits-slider {
+    min-height: 390px;
+    overflow: hidden;
+
+    & .swiper-slide {
+        display: flex;
+        padding: 0 40px;
+    }
+}

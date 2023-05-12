@@ -1,0 +1,1 @@
+const swiperHits = swiperCreater('.hits-slider', '.hits-section__container')

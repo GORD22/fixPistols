@@ -1,0 +1,1 @@
+const swiperActual = swiperCreater('.actual-slider', '.actual-section__container')

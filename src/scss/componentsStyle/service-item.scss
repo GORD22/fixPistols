@@ -1,0 +1,26 @@
+.service {
+    &:not(:last-child) {
+        margin-right: 95px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    }
+
+    &__list {
+        margin-top: 5px;
+    }
+
+    &__item {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+
+        color: #FFFFFF;
+    }
+}

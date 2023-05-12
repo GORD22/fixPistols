@@ -1,0 +1,66 @@
+@import "./applications-item.scss";
+
+.applications-section {
+    position: relative;
+    background: #000;
+    padding-top: 44px;
+    padding-bottom: 20px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        bottom: -101px;
+        width: 0;
+        height: 0;
+        border-top: 101px solid #000;
+        border-right: 101px solid transparent;
+    }
+
+    &__container {
+        width: 1090px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 65px;
+
+        text-transform: uppercase;
+
+        color: #fff;
+    }
+
+    &__description {
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+
+    }
+
+    & .btns-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        & .thumb-btn {
+            background: #fff;
+            color: #AB2222;
+        }
+    }
+}
+
+
+.applications-catalog {
+    overflow: hidden;
+    & .swiper-slide {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,55 @@
+@import "../../functions/functions.scss";
+@import 'actual-slider-item.scss';
+@import 'thumb-btn.scss';
+
+.actual-section {
+    position: relative;
+    margin-top: 101px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        bottom: -101px;
+        width: 0;
+        height: 0;
+        border-top: 101px solid #C50908;
+        border-right: 101px solid transparent;
+    }
+
+    &__title {
+        background: #900A00;
+        padding: 24px 40px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 65px;
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    &__container {
+        padding: 14px 40px 94px;
+        width: 100%;
+        background: #C50908;
+    }
+
+    & .thumb-btn {
+        background: #fff;
+        color: #C50908;
+    }
+}
+
+
+.actual-slider {
+    overflow: hidden;
+    margin-top: 18px;
+    min-height: 170px;
+    display: flex;
+
+    & .swiper-slide {
+        display: flex;
+    }
+}
